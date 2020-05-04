@@ -69,7 +69,7 @@ function App() {
               <option value = {120}>2 minutes</option>
             </select>
             <h5>selected time: {startingTime > 0 ? `${startingTime} seconds`: "please select a time"}</h5>
-            <h4 className = "timeRem">time remaining: {startingTime > 0 ? `${time} seconds`: "please select a time"}</h4>
+            <h4 className = "box">time remaining: {startingTime > 0 ? `${time} seconds`: "please select a time"}</h4>
             <textarea 
               ref = {inputRef} 
               value = {text} 
