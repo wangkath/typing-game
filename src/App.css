@@ -3,7 +3,7 @@ html, body {
   color: #00b800;
   font-family: 'Press Start 2P', "Courier New", cursive;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 2px;
 }
 
 body {
@@ -31,6 +31,11 @@ h4 {
   font-size: 25px;
 }
 
+h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
 textarea {
   font-family: "Press Start 2P", "Courier New";
   font-size: 20px;
@@ -40,7 +45,8 @@ textarea {
   outline: none;
   border: 3px solid black;
   background: #00b800;
-  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 10px;
   padding: 10px;
 }
 
@@ -50,4 +56,25 @@ textarea:disabled {
 
 button:disabled {
   cursor: not-allowed;
+}
+
+select {
+  display: block;
+  margin: auto;
+  appearance: none;
+  font-family: "Press Start 2P", "Courier New";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 2px 10px;
+  background: #00b800;
+  text-align: center;
+}
+
+.timeRem {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  display: block;
+  padding: 0px;
+  
 }
