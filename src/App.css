@@ -43,3 +43,11 @@ textarea {
   margin: auto;
   padding: 10px;
 }
+
+textarea:disabled {
+  background: rgb(153, 153, 153);
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
